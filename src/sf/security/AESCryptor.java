@@ -1,4 +1,4 @@
-package sf.security;
+﻿package sf.security;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
@@ -7,8 +7,8 @@ public class AESCryptor implements Cryptor {
 	private final static String DEFAULT_CHARSET = "UTF-8";
 	private String charSet;
 	private String key;
-	private String test;
-	
+        private String aaa;
+
 	public AESCryptor(String key) {
 		init(key, DEFAULT_CHARSET);
 	}
