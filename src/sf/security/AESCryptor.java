@@ -7,8 +7,8 @@ public class AESCryptor implements Cryptor {
 	private final static String DEFAULT_CHARSET = "UTF-8";
 	private String charSet;
 	private String key;
-	private String aaa;
-	
+        private String aaa;
+
 	public AESCryptor(String key) {
 		init(key, DEFAULT_CHARSET);
 	}
@@ -105,4 +105,7 @@ public class AESCryptor implements Cryptor {
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * 추가 된 부분 삭제 요
+	 */
 }
