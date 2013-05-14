@@ -7,6 +7,7 @@ public class AESCryptor implements Cryptor {
 	private final static String DEFAULT_CHARSET = "UTF-8";
 	private String charSet;
 	private String key;
+	private String test;
 	
 	public AESCryptor(String key) {
 		init(key, DEFAULT_CHARSET);
